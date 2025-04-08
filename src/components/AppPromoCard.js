@@ -1,4 +1,3 @@
-// src/components/AppPromoCard.js
 import React from "react";
 import "./AppPromoCard.css";
 

@@ -5,7 +5,7 @@ import Filters from "./components/Filters";
 import JobList from "./components/JobList";
 import FooterStats from "./components/FooterStats";
 import FooterBottom from "./components/FooterBottom";
-import "./App.css"; // make sure you import this!
+import "./App.css";
 import AppPromoCard from "./components/AppPromoCard";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 

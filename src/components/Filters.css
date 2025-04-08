@@ -92,6 +92,6 @@
     padding: 30px 20px;
     border-radius: 12px;
     width: 100%;
-    max-width: 400px; /* 👈 This keeps it compact */
+    max-width: 400px;
   }
   

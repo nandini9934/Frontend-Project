@@ -1,6 +1,6 @@
 import React from "react";
 import "./JobCard.css";
-import { FaCamera, FaLink, FaDownload } from "react-icons/fa"; // you can pick others too
+import { FaCamera, FaLink, FaDownload } from "react-icons/fa";
 
 const JobCard = ({ job }) => {
   return (

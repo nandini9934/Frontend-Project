@@ -29,7 +29,6 @@
   justify-content: center;
 }
 
-/* Input group with icon */
 .input-group {
   display: flex;
   align-items: center;
@@ -37,10 +36,9 @@
   margin-bottom: 15px;
 }
 
-/* Common styles for both input and select */
 .input-group input,
 .input-group select {
-  padding: 10px 80px 10px 38px; /* extra left padding for icon space */
+  padding: 10px 80px 10px 38px; 
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 16px;
@@ -51,14 +49,12 @@
   box-sizing: border-box;
 }
 
-/* Focus effect */
 .input-group input:focus,
 .input-group select:focus {
   border-color: #0073e6;
   outline: none;
 }
 
-/* Icon positioning */
 .input-group .icon {
   position: absolute;
   left: 12px;
@@ -70,7 +66,6 @@
 }
 
 
-/* Search Button */
 .search-btn {
   background-color: #0073e6;
   color: #fff;
@@ -79,9 +74,9 @@
   font-size: 15px;
   cursor: pointer;
   transition: background 0.3s;
-  height: 44px; /* Match input height */
-  padding: 0 22px; /* Remove vertical padding, keep horizontal */
-  line-height: 1;  /* Keeps text vertically centered */
+  height: 44px; 
+  padding: 0 22px; 
+  line-height: 1; 
 }
 
 

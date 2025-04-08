@@ -1,4 +1,3 @@
-// src/components/JobList.js
 import React from "react";
 import JobCard from "./JobCard";
 import jobsData from "./data/JobsData";

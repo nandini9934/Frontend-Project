@@ -6,7 +6,6 @@
     width: 90%;
   }
   
-  /* Optional scrollbar styling */
   .job-list-scroll::-webkit-scrollbar {
     width: 6px;
   }

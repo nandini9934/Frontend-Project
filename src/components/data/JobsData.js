@@ -1,4 +1,3 @@
-// src/data/jobsData.js
 const jobsData = [
     {
       id: 1,

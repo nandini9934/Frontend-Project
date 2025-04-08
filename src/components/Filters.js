@@ -2,8 +2,6 @@ import React from "react";
 import "./Filters.css";
 import { useState } from "react";
 
-// Filters.js
-
 const Filters = ({ onFilterChange }) => {
     const [filterState, setFilterState] = useState({
         experience: "",
@@ -15,7 +13,7 @@ const Filters = ({ onFilterChange }) => {
         const { name, value } = e.target;
         const updated = { ...filterState, [name]: value };
         setFilterState(updated);
-        onFilterChange(updated); // send back to App
+        onFilterChange(updated);
     };
 
     return (
