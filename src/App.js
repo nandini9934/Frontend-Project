@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+import Filters from "./components/Filters";
+import JobList from "./components/JobList";
+import FooterStats from "./components/FooterStats";
+import FooterBottom from "./components/FooterBottom";
+import "./App.css"; // make sure you import this!
+import AppPromoCard from "./components/AppPromoCard";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
+  const [filters, setFilters] = useState({
+    experience: "",
+    type: "",
+    mode: "",
+  });
+
+  const handleFilterChange = (newFilters) => {
+    setFilters(newFilters);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <SearchBar />
+      <div className="main-content">
+        <Filters onFilterChange={handleFilterChange} />
+        <JobList activeFilters={filters} />
+        <AppPromoCard/>
+      </div>
+      <FooterStats />
+      <FooterBottom />
     </div>
   );
 }

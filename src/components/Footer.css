@@ -1,0 +1,249 @@
+.footer-top-unique {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  background: #f1faff;
+  padding: 25px 20px;
+  margin-top: 60px;
+}
+
+.footer-card {
+  flex: 1 1 45%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.footer-card:hover {
+  transform: translateY(-4px);
+}
+
+.footer-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(90deg, #004e92, #000428);
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-card-header i {
+  font-size: 18px;
+}
+
+.footer-card-header h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.tags-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.tags-grid span {
+  background: #e6f0f6;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #003366;
+  transition: background 0.2s;
+}
+
+.tags-grid span:hover {
+  background: #cce0ff;
+  cursor: pointer;
+}
+
+.footer-new {
+  background: #f8fefe;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.stats-grid div {
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.stats-grid span {
+  font-size: 35px;
+  display: block;
+}
+
+.stats-grid h5 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.startup-logo img {
+  height: 40px;
+}
+
+.disclaimer-section-unique {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fdfdfd;
+  padding: 30px 20px;
+  border-top: 1px solid #ccc;
+  gap: 20px;
+}
+
+.disclaimer-box {
+  flex: 1 1 70%;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #fff8e1;
+  border-left: 6px solid #ffa000;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.disclaimer-box i {
+  color: #ffa000;
+  font-size: 24px;
+  margin-top: 4px;
+}
+
+.disclaimer-content h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.disclaimer-content p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.recognized-box {
+  flex: 1 1 25%;
+  text-align: center;
+  background: #e6f6f6;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.recognized-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #004e92;
+}
+
+.recognized-box img {
+  max-width: 100%;
+  height: 50px;
+  object-fit: contain;
+}
+
+.footer-links-unique {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: #f2f8fb;
+  border-top: 2px solid #dbe9f1;
+}
+
+.footer-nav {
+  flex: 1 1 300px;
+}
+
+.footer-nav h4,
+.footer-socials h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #004080;
+}
+
+.footer-nav ul,
+.nav-columns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav ul li,
+.nav-columns ul li {
+  margin: 6px 0;
+}
+
+.footer-nav ul li a,
+.nav-columns ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-nav ul li a:hover,
+.nav-columns ul li a:hover {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+.footer-socials {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.social-icons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons-grid i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #004080;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.social-icons-grid i:hover {
+  background-color: #0066cc;
+}
+
+.nav-columns {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}

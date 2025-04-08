@@ -1,0 +1,111 @@
+.site-header {
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 15px 25px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  /* Brand Logo */
+  .brand-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .brand-logo .highlight {
+    color: #0073e6;
+  }
+  
+  /* Navigation */
+  .main-nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .main-nav .nav-links li a:hover {
+    color: #0073e6;
+  }
+  
+  /* Login Buttons */
+  .user-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .user-actions a {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .btn-outline {
+    border: 1px solid #0073e6;
+    color: #0073e6;
+    background: transparent;
+  }
+  
+  .btn-outline:hover {
+    background: #0073e6;
+    color: #fff;
+  }
+  
+  .btn-filled {
+    background: #0073e6;
+    color: #fff;
+  }
+  
+  .btn-filled:hover {
+    background: #005bb5;
+  }
+  
+  @media (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .main-nav .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .main-nav {
+      width: 100%;
+    }
+  
+    .user-actions {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .user-actions a {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,97 @@
+.vertical-job-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #f9fcff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    max-width: 100%;
+  }
+  
+  .filter-panel,
+  .quick-tags-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 100%;
+  }
+  
+  .filter-title,
+  .quick-title {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 15px;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #222;
+  }
+  
+  .filter-group input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .filter-collapsible {
+    margin-bottom: 16px;
+  }
+  
+  .collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eef4fb;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    color: #003366;
+    transition: background 0.3s;
+  }
+  
+  .collapsible-header:hover {
+    background-color: #dbe9f6;
+  }
+  
+  .quick-tags-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .quick-tag {
+    background-color: #e6f0ff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #004080;
+    transition: background 0.3s;
+    cursor: pointer;
+  }
+  
+  .quick-tag:hover {
+    background-color: #cce4ff;
+  }
+  .vertical-job-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #f9fcff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px; /* 👈 This keeps it compact */
+  }
+  

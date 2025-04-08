@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "TechCorp",
+      "location": "Remote",
+      "description": "We are looking for a frontend developer with experience in React and CSS."
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "DataSystems",
+      "location": "New York, NY",
+      "description": "Looking for backend developer with Node.js experience."
+    }
+  ]
+  

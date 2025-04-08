@@ -1,0 +1,23 @@
+.job-list-scroll {
+    max-height: 600px;
+    overflow-y: auto;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  /* Optional scrollbar styling */
+  .job-list-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+  .job-list-scroll::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 10px;
+  }
+  
+  .job-list-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

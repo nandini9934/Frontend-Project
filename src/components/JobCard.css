@@ -1,0 +1,98 @@
+.job-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .job-head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: #eee;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: navy;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  .job-info {
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
+  .job-footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .actions button {
+    margin-right: 8px;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .apply-btn {
+    background: navy;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* ✅ Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .job-head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .badge {
+      position: static;
+      align-self: flex-end;
+      margin-top: 10px;
+    }
+  
+    .job-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .apply-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

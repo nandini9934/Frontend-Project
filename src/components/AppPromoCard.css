@@ -1,0 +1,22 @@
+/* src/components/AppPromoCard.css */
+.promo-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: fit-content;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .promo-card h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .play-badge {
+    width: 160px;
+  }
+  
